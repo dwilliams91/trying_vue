@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <Todos v-bind: todos="todos"></Todos>
+    <h3>hi</h3>
+    <Todos myText="hello world"></Todos>
   </div>
 </template>
 
