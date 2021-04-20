@@ -1,12 +1,17 @@
 <template>
-    <div>
-        <h1>To dos components</h1>
-        <h3>{{myText}}</h3>
-    </div>
+  <div>
+    <h1>To dos components</h1>
+    <h3>{{ myText }}</h3>
+    <ul id="example-1">
+      <li v-for="item in myText" :key="item.id">
+        {{ item.title }}
+      </li>
+    </ul>
+  </div>
 </template>
 <script>
 export default {
-    name:'Todos',
-    props:["myText"]
+  name: "Todos",
+  props: ["myText"],
 };
 </script>
