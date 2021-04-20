@@ -7,8 +7,6 @@
 <script>
 export default {
     name:'Todos',
-    props:{
-        myText: String
-        }
+    props:["myText"]
 };
 </script>
