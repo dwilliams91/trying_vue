@@ -14,9 +14,9 @@ export default {
   data() {
     return {
     todos: [
-      { id: 1, title: "todo one", complete: false },
-      { id: 2, title: "todo two", complete: true },
-      { id: 3, title: "todo three", complete: false },
+      { id: 1, title: "todo one", complete: false, times:1, },
+      { id: 2, title: "todo two", complete: true, times:1, },
+      { id: 3, title: "todo three", complete: false, times:1, },
     ]
     }
   },
