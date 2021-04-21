@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h3>hi</h3>
-    <Todos :myText="todos"></Todos>
+    <Todos v-bind:myText="todos"></Todos>
   </div>
 </template>
 
@@ -9,10 +9,7 @@
 import Todos from './components/Todos.vue';
 export default {
   name: "App",
-  // data: ()=>({
-  //   text:"dude whats up?",
-  //   greeting:"nothing much"
-  // }),
+ 
 
   data() {
     return {
